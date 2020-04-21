@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+		
+		<style>
+			body {
+				background-color: black;
+				color: white;
+				text-align:center;
+			}
+		</style>
+        {% endblock head %}
+</head>
+
+<body id="index" class="home">
+        {% block content %}
+        {% endblock %}
+		<a href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
+		<nav id="menu"><ul>
+        {% for title, link in MENUITEMS %}
+            <a href="{{ link }}">{{ title }}</a>
+        {% endfor %}
+        </ul></nav><!-- /#menu -->
+</body>
+</html>
