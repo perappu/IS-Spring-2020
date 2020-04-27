@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Kazimir Fodor'
-SITENAME = 'IS 2020'
+SITENAME = 'Kazimir Fodor'
 SITEURL = 'https://quarantinejournal.herokuapp.com/'
 
 PATH = 'content'
