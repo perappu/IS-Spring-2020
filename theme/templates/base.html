@@ -34,6 +34,8 @@
         {% block content %}
         {% endblock %}
 		<a href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a>
+		<br>
+		<a href="{{ SITEURL }}/archives.html">Archives</a>
 		<nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
             <a href="{{ link }}">{{ title }}</a>
