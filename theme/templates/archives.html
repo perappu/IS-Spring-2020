@@ -7,7 +7,7 @@
 
 <dl>
 {% for article in dates %}
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+    <dd><a href="{{ SITEURL }}/index{{ article.url }}.html">{{ article.title }}</a></dd>
 {% endfor %}
 </dl>
 {% endblock %}

@@ -1,4 +1,3 @@
-Title: Page 3
+Title: 3
 Date: 2010-12-03 10:20
-Category: Review
 Image: 3.png
