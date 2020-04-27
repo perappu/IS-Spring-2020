@@ -4,13 +4,15 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Kazimir Fodor'
 SITENAME = 'IS 2020'
-SITEURL = ''
+SITEURL = 'https://stokori.github.io/IS-Spring-2020/'
 
 PATH = 'content'
 
 TIMEZONE = 'America/Chicago'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
+
+STATIC_PATHS = ['images']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
