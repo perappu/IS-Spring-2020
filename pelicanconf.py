@@ -23,6 +23,9 @@ AUTHOR_FEED_RSS = None
 
 THEME = 'theme'
 
+INDEX_SAVE_AS = 'index1.html'
+INDEX_URL = "index1.html"
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
