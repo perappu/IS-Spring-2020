@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Kazimir Fodor'
 SITENAME = 'IS 2020'
-SITEURL = 'https://stokori.github.io/IS-Spring-2020'
+SITEURL = 'https://interdisciplinary2020.herokuapp.com/'
 
 PATH = 'content'
 
