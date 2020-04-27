@@ -23,8 +23,8 @@ AUTHOR_FEED_RSS = None
 
 THEME = 'theme'
 
-INDEX_SAVE_AS = 'index1.html'
-INDEX_URL = "index1.html"
+INDEX_SAVE_AS = 'index.html'
+INDEX_URL = "index.html"
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
